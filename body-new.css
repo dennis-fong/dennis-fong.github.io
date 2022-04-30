@@ -1,0 +1,142 @@
+.wrap2{
+    padding:20px 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background:linear-gradient(-30deg,#fdaecb,#e7597f,#fe8556);
+}
+
+.container2{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.wrap2 .item2{
+    width: 368px;
+    margin: 20px 15px;
+    display: flex;
+    background-color: white;
+   
+    box-shadow:0 10px 30px rgba(160,0,0,.5);
+    font-family: 'Changa', sans-serif;
+    transition: .5s;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.wrap2 .item2:hover{
+    background:rgba(255, 255, 0, .5);
+    color: white;
+    transform:scale(1.1);
+}
+
+.wrap2 .item3:hover {
+    background:rgba(255, 255, 0, 0.5);
+    color: white;
+    transform:scale(1.1);
+}
+.item2 .pic{
+    width: 50%;
+}
+.item2 .pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item2 .txt{
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* justify-self: center; */
+}
+.item2 .txt h2{
+    margin-bottom: .4em;
+    border-bottom: 2px solid;
+    font-weight: 500;
+}
+.item2 .txt p{
+        font-weight: 300;
+}
+.item2 .txt .btn{
+    line-height: 1.5em;
+    border:1px solid #ccc;
+    padding: 0 1em;
+    align-self: flex-end;
+    text-decoration: none;
+    border-radius: 200px;
+    margin-top: auto;
+    color: #aaa;
+    transition: .2s;
+}
+.item2 .txt .btn:hover{
+    background-color: #ccc;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* item 3 */
+
+.wrap2 .item3{
+    width: 800px;
+    margin: 20px 15px;
+    display: flex;
+    background-color: white;
+    border: 1px solid #888;
+    box-shadow:0 10px 30px rgba(160,0,0,.5);
+    font-family: 'Changa', sans-serif;
+    transition: .5s;
+    border-bottom-right-radius:30px ;
+}
+
+.item3 .pic{
+    width: 50%;
+}
+.item3 .pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item3 .txt{
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* justify-self: center; */
+}
+.item3 .txt h2{
+    margin-bottom: .4em;
+    border-bottom: 2px solid;
+    font-weight: 500;
+}
+.item3 .txt p{
+        font-weight: 300;
+}
+.item3 .txt .btn{
+    line-height: 1.5em;
+    border:1px solid #ccc;
+    padding: 0 1em;
+    align-self: flex-end;
+    text-decoration: none;
+    border-radius: 200px;
+    margin-top: auto;
+    color: #aaa;
+    transition: .2s;
+}
+.item3 .txt .btn:hover{
+    background-color: #ccc;
+    color: #fff;
+}
+
