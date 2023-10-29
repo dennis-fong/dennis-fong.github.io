@@ -7,6 +7,7 @@ const connection = new MySQLConnection({
     user: 'dennis',
     password: 'aA28450764#',
     database: 'testdb',
+    port:'3306'
   });
   
   // 查詢數據
