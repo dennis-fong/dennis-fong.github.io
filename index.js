@@ -1,5 +1,3 @@
-// 載入 MySQL 模組
-const mysql = require('mysql');
 
 // 連接數據庫
 const connection = new MySQLConnection({
