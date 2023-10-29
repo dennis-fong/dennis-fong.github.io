@@ -1,3 +1,6 @@
+// 載入 MySQL 模組
+const mysql = require('mysql');
+
 // 連接數據庫
 const connection = new MySQLConnection({
     host: 'rm-bp1b191062h53s0n0po.mysql.rds.aliyuncs.com',
